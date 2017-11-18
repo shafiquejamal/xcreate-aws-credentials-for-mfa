@@ -32,3 +32,5 @@ aws_session_token=YOUR_NEW_SESSION_TOKEN
 [Arguments with flags](https://stackoverflow.com/questions/7069682/how-to-get-arguments-with-flags-in-bash-script)
 
 [Get AWS credentials from command line](https://gist.github.com/ddgenome/f13f15dd01fb88538dd6fac8c7e73f8c)
+
+[How do I use an MFA token to authenticate access to my AWS resources through the AWS CLI?](https://aws.amazon.com/premiumsupport/knowledge-center/authenticate-mfa-cli/)
