@@ -5,6 +5,7 @@ This project is a script file for generating AWS credentials for use with MFA to
 ## Requirements
 
 - Bash version 4 (for Mac, see [Update bash to version 4 on OSX](https://apple.stackexchange.com/questions/193411/update-bash-to-version-4-0-on-osx))
+- [jq](https://stedolan.github.io/jq/download/)
 
 ## How to use
 
@@ -12,7 +13,8 @@ This project is a script file for generating AWS credentials for use with MFA to
 ./create-aws-credentials-for-mfa.sh --existing-profile=your-existing-profile \
   --serial-number=GET_FROM_IAM \
   --mfa-profile=new-profile-name --output=text \
-  --region=us-east-1 \ --token-code=CODE_FROM_MFA_DEVICE >> ~/.aws/credentials
+  --region=us-east-1 \ 
+  --token-code=CODE_FROM_MFA_DEVICE >> ~/.aws/credentials
 ```
 
 then your `~/.aws/credentials` file should contain the following:

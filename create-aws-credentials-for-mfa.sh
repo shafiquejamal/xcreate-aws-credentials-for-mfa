@@ -1,4 +1,3 @@
-#!/usr/local/bin/bash
 # From: https://stackoverflow.com/questions/7069682/how-to-get-arguments-with-flags-in-bash-script
 # declaring a couple of associative arrays
 declare -A arguments=();  
