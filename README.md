@@ -12,7 +12,8 @@ This project is a script file for generating AWS credentials for use with MFA to
 ```{bash}
 ./create-aws-credentials-for-mfa.sh --existing-profile=your-existing-profile \
   --serial-number=GET_FROM_IAM \
-  --mfa-profile=test-mfa-profile --output=text \
+  --mfa-profile=test-mfa-profile \
+  --output=text \
   --region=us-east-1 \ 
   --token-code=CODE_FROM_MFA_DEVICE >> ~/.aws/credentials
 ```
